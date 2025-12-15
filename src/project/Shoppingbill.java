@@ -6,10 +6,10 @@ public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
 
 System.out.print("Enter Product Price: ");
-double price = sc.nextDouble();
+double price = 10;
 
 System.out.print("Enter Quantity: ");
-int qty = sc.nextInt();
+int qty = 5;
 
 double total = price * qty;
 double discount = total * 0.10;
